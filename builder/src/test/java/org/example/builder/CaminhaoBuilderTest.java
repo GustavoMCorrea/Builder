@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CaminhaoBuilderTest {
 
     @Test
-    void deveRetornarExcecaoParaAlunoSemMatricula() {
+    void deveRetornarExcecaoParaCaminhaoSemPlaca() {
         try {
             CaminhaoBuilder caminhaoBuilder = new CaminhaoBuilder();
             Caminhao caminhao = caminhaoBuilder
@@ -21,7 +21,7 @@ class CaminhaoBuilderTest {
     }
 
     @Test
-    void deveRetornarExcecaoParaCaminhaoSemNome() {
+    void deveRetornarExcecaoParaCaminhaoSemChassi() {
         try {
             CaminhaoBuilder caminhaoBuilder = new CaminhaoBuilder();
             Caminhao caminhao = caminhaoBuilder
